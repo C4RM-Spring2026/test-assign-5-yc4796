@@ -1,6 +1,6 @@
 def FizzBuzz(start, finish):
     import numpy as np
-    numvec = np.arange(start, finish)
+    numvec = np.arange(start, finish+1)
     objvec = np.array(numvec, dtype=object)
     
     fizzbuzz = (numvec % 3 == 0) & (numvec % 5 == 0)
